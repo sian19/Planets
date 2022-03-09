@@ -4,7 +4,7 @@ Projeto de um site que mostra os planetas que vão ser navegados por astronautas
 <img src="https://github.com/sian19/Planets/blob/master/src/assets/home-img.jpg"/>
 <img src="https://github.com/sian19/Planets/blob/master/src/assets/destination-img.jpg" />
 <img src="https://github.com/sian19/Planets/blob/master/src/assets/crew-img.jpg" />
-<img src="https://github.com/sian19/Planets-/blob/master/src/assets/technology-img.jpg" />
+<img src="https://github.com/sian19/Planets/blob/master/src/assets/technology-img.jpg" />
 
 <p>O projeto consiste em um site que contém 4 páginas com as abas home, destination, crew e technology. Na página home se tem a apresentação do site. Na página destination se tem 
 4 sub abas onde em cada uma se tem um determinado planeta com a sua descrição completa. Na página crew se tem 4 sub abas onde em cada uma mostra um astronauta e sua função na nave.Na página technology se tem 3 sub abas onde uma se mostra a nave e sua especificações, na segunda se mostra o local da decolagem da nave e na terceira se tem a capsula da nave.</p>
