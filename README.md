@@ -24,4 +24,4 @@ styled-components em um projeto para evitar que outras partes do código sejam m
 acidental, pois usando styled-components se consegue estilizar cada html do código de forma individual.</li>
 </ul>
 <h3>Link do projeto:</h3>
-<a href="https://planets-navigation.netlify.app/">clique aqui<a>
+<a href="https://planets-navigation.netlify.app">clique aqui<a>
