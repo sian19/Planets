@@ -1,0 +1,163 @@
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    top: 40px;
+    padding-left: 52px;
+    z-index: 99;
+}
+
+.group-3{
+    width: 100%;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+    background: url("../../assets/Path.svg") no-repeat center/cover;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+.rectangle{
+    width: 40%;
+    height: 1px;
+    color: white;
+    opacity: 0.25;
+    border: 1px solid #ffff;
+    position: relative;
+    left: 120px;
+    z-index: 2;
+}
+
+nav.menu-desktop{
+    width: 57%;
+    padding: 0px 3%;
+    margin-left: 83px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+}
+
+nav.menu-desktop ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 542px;
+    margin: auto;
+}
+
+nav.menu-desktop ul li{
+    padding: 36px 0;
+    
+}
+
+nav.menu-desktop ul li:not(:first-child){
+    margin-left: 40px;
+} 
+
+nav.menu-desktop ul li:first-child{
+    border-bottom: 3px solid white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-family: var(--Bar);
+    letter-spacing: 2.7px;
+
+    display: flex;
+    white-space: pre;
+    cursor: pointer;
+}
+
+a > p{
+    font-weight: bold;
+}
+
+
+
+.menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1440px){
+    .group-3 nav{
+        width: 60%;
+        max-width: 830px;
+    }
+
+    .rectangle{
+        width: 40%;
+        left: 113px;
+        max-width: 473px;
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+    .rectangle{
+       display: none;
+    }
+
+    .group-3{
+        justify-content: space-between;
+    }
+
+    .logo{
+        position: static;
+    }
+
+    nav.menu-desktop{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    header{
+        top: 0;
+        padding-left: 40px;
+    }
+
+   .group-3 nav ul li p{
+       display: none;
+   }
+
+   a{
+       font-size: 0.875em;
+       white-space: normal;
+   }
+
+   .group-3 nav{
+        width: 70%;
+        max-width: 455px;
+
+   }
+
+   .group-3 nav ul{
+       max-width: 350px;
+       justify-content: space-around;
+   }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .group-3{
+        max-width: 335px;
+        margin: auto;
+        padding: 0 2%;
+    }
+
+   
+}

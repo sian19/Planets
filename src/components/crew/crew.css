@@ -1,0 +1,251 @@
+.container.crew{
+    width: 100%;
+    height: 937px;
+    background-image: url('../../assets/crew.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pilot-img{
+    display: none;
+}
+
+.flex-crew{
+    width: 100%;
+    max-width: 1800px;
+    padding-left: 169px;
+    padding-top: 212px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n1c{
+    width: 50%;
+}
+
+.text-crew h3:first-child{
+    font-family: var(--Bell);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 154px;
+}
+
+.text-crew h2{
+    font-family: var(--Bell);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.text-crew p{
+    font-family: var(--BarN);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125em;
+    color: #D0D6F9;
+    line-height: 32px;
+    max-width: 444px;
+    margin-top: 27px;
+}
+
+.bullet{
+    max-width: 150px;
+    display: flex;
+    margin-top: 120px;
+}
+
+.bullet span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 0.17;
+    cursor: pointer;
+}
+
+.bullet span:not(:first-child){
+    margin-left: 24px;
+}
+
+.n2c{
+    width: 50%;
+    height: 723px;
+}
+
+@media screen and (max-width: 1320px){
+    .flex-crew{
+        padding-left: 0;
+        display: block;
+    }
+
+    .n1c{
+        width: 100%;
+        max-width: 550px;
+        margin: auto;
+        padding: 0 2%;
+        text-align: center;
+    }
+
+    .container.crew{
+        height: auto;
+    }
+
+    .n2c{
+       width: 100%;
+       max-width: 600px;
+       padding-top: 50px;
+       margin: auto;
+    }
+
+    .text-crew p{
+        max-width: 444px;
+        margin: auto;
+        margin-top: 27px;
+    }
+
+    .flex-crew .title{
+        max-width: 298px;
+        margin: auto;
+    }
+
+    .bullet{
+        max-width: 135px;
+        margin: auto;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .flex-crew .title{
+        max-width: 298px;
+        margin: 0;
+    }
+
+    .flex-crew{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 136px;
+    }
+
+    .n1c{
+        max-width: 800px;
+        margin: 0;
+        padding-left: 36px;
+    }
+
+    .text-crew{
+        width: 100%;
+        margin: auto;
+    }
+
+    .text-crew h3:first-child{
+        margin-top: 60px;
+        font-size: 1.5em;
+    }
+
+    .text-crew h2{
+        font-size: 2.5em;
+    }
+
+    .text-crew p{
+        font-size: 1em;
+        max-width: 490px;
+        margin-top: 16px;
+    }
+
+    .bullet{
+        max-width: 122px;
+        margin-top: 40px;
+    }
+
+    .bullet span{
+        width: 10px;
+        height: 10px;
+    }
+
+    .n2c{
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .flex-crew .title{
+        max-width: 166px;
+        margin: auto;
+    }
+
+    section.pilot-crew{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    .text-crew h3:first-child{
+        font-size: 1em;
+        margin-top: 36px;
+    }
+
+    .text-crew h2{
+        font-size: 1.5em;
+        margin-top: 12px;
+    }
+
+    .text-crew p{
+        max-width: 327px;
+        padding-bottom: 400px;
+    }
+
+    .n2c{
+        display: none;
+    }
+
+    .pilot-img{
+        display: block;
+        max-width: 327px;
+        margin: auto;
+        border-bottom: 1px solid #383B4B;
+        padding-top: 30px;
+    }
+
+    .n1c{
+        padding: 0 8px;
+    }
+
+    .bullet{
+        max-width: 90px;
+    }
+
+    .bullet span:not(:first-child){
+        margin-left: 16px;
+    }
+    
+}
+
+@media screen and (min-height: 1000px){
+    .container.crew{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-height: 1000px){
+      .container.crew{
+          height: 1350px;
+      }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px){
+    .container.crew{
+        height: 100vh;
+    }
+}
+
+
+
+

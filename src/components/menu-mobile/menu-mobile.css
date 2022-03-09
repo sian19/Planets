@@ -1,0 +1,124 @@
+nav.menu-mob{
+    display: none;
+    transition: 0.5s;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+  
+}
+
+nav.menu-mob ul{
+    display: block;
+    list-style: none;
+    margin-top: 136px;
+    max-width: 500px;
+}
+
+.menu-mob  ul  li   a  p{
+    display: block;
+    white-space: pre;
+}
+
+nav.menu-mob > ul > li{
+    margin-left: 0;
+    border-bottom: 0;
+    height: 31px;
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 32px;
+    
+}
+
+nav.menu-mob > ul > li a{
+    margin-top: -6px;
+    font-size: 1em;
+}
+
+nav.menu-mob > ul > li:hover{
+    border-right: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+nav.menu-mob > ul > li:not(:first-child){
+    margin-top: 25px;
+}
+
+nav.menu-mob > ul > li:first-child{
+    border-right: 4px solid white;
+}
+
+.menu-mobile > input{
+    z-index: 98;
+}
+
+@media screen and (max-width: 650px){
+    nav.menu-mob{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        height: 1110px;
+        top: -35px;
+        left: -100%;
+    }
+
+    header{
+        padding-left: 0;
+        left: 50%;
+        top: 24px;
+        padding: 0 4%;
+        transform: translateX(-50%);
+
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 21px;
+        z-index: 98;
+    }
+
+    .menu-mobile > input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .menu-mobile span{
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #D0D6F9;
+        transition: 0.4s;
+    }
+
+    span:nth-of-type(2){
+        top: 8px;
+    }
+
+    span:last-child{
+        top: 16px;
+    }
+
+    input:checked + label > span:nth-of-type(2){
+        opacity: 0;
+    }
+
+    input:checked + label > span:first-child{
+        top: 8px;
+        transform: rotate(-45deg);
+    }
+
+    input:checked + label > span:last-child{
+        top: 8px;
+        transform: rotate(45deg);
+    }
+
+}

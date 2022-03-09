@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --Bar: 'Barlow Condensed';
+    --BarN: 'Barlow';
+    --Bell: 'Bellefair';
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    font-size: 16px;
+
+    overflow-x: hidden;
+}
+
+h3{
+    color: white;
+}

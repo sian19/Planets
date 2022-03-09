@@ -1,0 +1,179 @@
+.text h1{
+    font-family: var(--Bell);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.25em;
+    color: #FFFFFF;
+    margin-top: 37px;
+}
+
+.text p{
+    font-family:  var(--BarN);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125em;
+    color: #D0D6F9;
+    line-height: 32px;
+    margin-top: 14px;
+    width:  95%;
+}
+
+.text .retangle{
+    margin-top: 54px;
+    height: 1px;
+    background-color: #383B4B;
+}
+
+.text article{
+    display: flex;
+    margin-top: 10px;
+}
+
+.text .distance{
+    width: 50%;
+    max-width: 160px;
+}
+
+.text .days{
+    width: 50%;
+    max-width: 158px;
+    margin-left: 79px;
+}
+
+.text article p{
+    font-family: var(--Bar);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    letter-spacing: 2.3625px;
+}
+
+.text h3{
+    font-family: var(--Bell);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75em;
+    color: white;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1300px){
+    .text .days{
+        padding-bottom: 50px;
+    }
+
+    .text h1{
+        text-align: center;
+    }
+
+    .text p{
+        text-align: center;
+        margin: auto;
+        margin-top: 14px;
+    }
+
+    .text .distance{
+        text-align: center;
+    }
+
+    .text .days{
+        max-width: 160px;
+        text-align: center;
+    }
+
+    .text article{
+        padding: 0 6%;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .text h1{
+        font-size: 5em;
+        width: 266px;
+        display: block;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .text p{
+        font-size: 1em;
+        max-width: 573px;
+        text-align: center;
+    }
+
+    .text .retangle{
+        width: 100%;
+        max-width: 555px;
+        
+    }
+
+    .text article{
+        max-width: 555px;
+    }
+
+    .text .days{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .text .days p{
+      margin-left: 5px;
+    }
+
+    .text .distance p{
+        margin-left: 5px;
+      }
+  
+
+    .text .distance{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .text h1{
+        font-size: 3.5em;
+        width: 187px;
+        margin-top: 20px;
+    }
+
+    .text p{
+        font-size: 0.938em;
+        line-height: 25px;
+        margin-top: 0;
+    }
+
+    .text .retangle{
+        max-width: 550px;
+        margin-top: 32px;
+    }
+
+    .text article{
+        display: block;
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .text .distance{
+        width: 100%;
+        max-width: 216px;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .text .days{
+        width: 100%;
+        margin: auto;
+    }
+
+    .text .distance h3{
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+
+    .text .days h3{
+        margin-top: 12px;
+    }
+}
