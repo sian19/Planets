@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Planets navigation
+Projeto de um site que mostra os planetas que vão ser navegados por astronautas e o nome e função que ambos tem na nave.
+<h3>Imagens do projeto:</h3>
+<img src="https://github.com/sian19/Planets/blob/master/src/assets/home-img.jpg"/>
+<img src="https://github.com/sian19/Planets/blob/master/src/assets/destination-img.jpg" />
+<img src="https://github.com/sian19/Planets/blob/master/src/assets/crew-img.jpg" />
+<img src="https://github.com/sian19/Planets/blob/master/src/assets/technology-img.jpg" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>O projeto consiste em um site que contém 4 páginas com as abas home, destination, crew e technology. Na página home se tem a apresentação do site. Na página destination se tem 
+4 sub abas onde em cada uma se tem um determinado planeta com a sua descrição completa. Na página crew se tem 4 sub abas onde em cada uma mostra um astronauta e sua função na nave.Na página technology se tem 3 sub abas onde uma se mostra a nave e sua especificações, na segunda se mostra o local da decolagem da nave e na terceira se tem a capsula da nave.</p>
+<br/>
+<h3>Oque foi usado no desenvolvimento da aplicação:</h3>
+<ul>
+  <li>O projeto foi desenvolvido usando hooks para renderizar os componentes em tela.</li>
+  <li>Foram usados para desenvolver o projeto contextAPI, Router e styled-components.</li>
+  <li>Se criou um componente chamado AuthContext onde se tem estados e funções usadas para setar nos estados valores que são usados nos componentes da aplicação de forma global. Por
+exemplo um estado com o nome de bullet que irá armazenar um valor de 0 á 3, onde em algum determinado lugar no código irá importar esse estado e a função que vai armazenar esse valor
+nele. Dessa forma se consegue controlar oque irá aparecer para o usuário em tela dependendo do valor de bullet, que no caso do projeto será controlado qual imagem e texto irá aparecer
+na tela do usuário se ele clicar em um determinado botão onde é chamada a função que armazenará esse dado de forma global.</li>
+  <li>Para fazer com que o usuário navegue através das páginas se usou o react-router-dom e linkou cada rota em um href eo substituindo pelo link e dentro do link se tem um to onde dentro
+dele se tem o nome da rota configurada, dessa forma ao usuário clicar no botão com o nome da página ele é redirecionado para a página determinada pela rota que está no link.</li>
+  <li>Se utilizou o styled-components para estilizar alguns elementos como por exemplo uma imagem setando no styled-components o tamanho da imagem. Pois é muito importante se usar o 
+styled-components em um projeto para evitar que outras partes do código sejam modificadas de forma indevida, assim o programador não corre o risco de estilizar um elemento html de forma 
+acidental, pois usando styled-components se consegue estilizar cada html do código de forma individual.</li>
+</ul>
+<h3>Link do projeto:</h3>
+<a href="https://planets-navigation.netlify.app/">clique aqui<a>
