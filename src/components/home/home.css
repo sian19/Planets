@@ -1,19 +1,19 @@
-.container{
-  width: 100%;
-  height: 100%;
+.container {
+    width: 100%;
+    height: 100%;
 }
 
-.container.home{
+.container.home {
     width: 100%;
-    height: 937px;
+    height: 1000px;
 
-    background-image: url('../../assets/Bitmap.svg');
+    background-image: url('../../assets/Bitmap.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.flex-home{
+.flex-home {
     width: 100%;
     position: absolute;
     top: 387px;
@@ -23,12 +23,12 @@
     color: white;
 }
 
-.text-title{
+.text-title {
     width: 40%;
     max-width: 450px;
 }
 
-.text-title h3{
+.text-title h3 {
     font-family: var(--Bar);
     font-style: normal;
     font-weight: normal;
@@ -38,7 +38,7 @@
     margin-bottom: 24px;
 }
 
-.text-title h1{
+.text-title h1 {
     font-family: var(--Bell);
     font-style: normal;
     font-weight: normal;
@@ -47,7 +47,7 @@
     margin-bottom: 24px;
 }
 
-.text-title p{
+.text-title p {
     font-family: var(--BarN);
     font-style: normal;
     font-weight: normal;
@@ -56,7 +56,7 @@
     line-height: 32px;
 }
 
-.ball{
+.ball {
     width: 40%;
     max-width: 450px;
     height: 450px;
@@ -65,7 +65,7 @@
     margin-right: 130px;
 }
 
-.big-ball{
+.big-ball {
     width: 100%;
     height: 100%;
     border-radius: 100%;
@@ -75,7 +75,7 @@
     position: relative;
 }
 
-.center-ball{
+.center-ball {
     width: 60%;
     max-width: 274px;
     height: 60%;
@@ -91,32 +91,33 @@
     transform: translate(-50%, -50%);
 }
 
-.center-ball > p{
-   padding-top: 117px;
-   color: #0B0D17;
-   font-family: var(--Bell);
-   font-size: 2em;
-   font-style: normal;
-   font-weight: normal;
+.center-ball>p {
+    padding-top: 117px;
+    color: #0B0D17;
+    font-family: var(--Bell);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
 }
 
-.big-ball:hover{
+.big-ball:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media screen and (max-width: 1440px){
-    .flex-home{
+
+@media screen and (max-width: 1440px) {
+    .flex-home {
         color: white;
     }
 
-    .ball{
+    .ball {
         position: relative;
         left: 60px;
     }
 }
 
-@media screen and (max-width: 1290px){
-    .ball{
+@media screen and (max-width: 1290px) {
+    .ball {
         position: static;
         left: 0;
         width: 100%;
@@ -124,11 +125,11 @@
         margin-top: 30px;
     }
 
-    .container.home{
+    .container.home {
         height: 1390px;
     }
 
-    .flex-home{
+    .flex-home {
         width: 100%;
         padding: 0 2%;
         top: 250px;
@@ -136,97 +137,108 @@
         flex-direction: column;
     }
 
-    .text-title{
+    .text-title {
         width: 100%;
         max-width: initial;
     }
 
-    .text-title p{
+    .text-title p {
         max-width: 700px;
         margin: auto;
     }
 }
 
 
-@media screen and (max-width: 810px){
-    .container.home{
-        background: url('../../assets/Bitmap-mob.svg') no-repeat center/cover;
-        height: 1100px;
+@media screen and (max-width: 810px) {
+    .container.home {
+        background: url('../../assets/Bitmap-mob.png') no-repeat center/cover;
+        height: 1250px;
     }
 
-    .flex-home{
+    .flex-home {
         top: 202px;
     }
 
-    .ball{
-       max-width: 400px;
-       height: 400px;
-       margin-top: 100px;
+    .ball {
+        max-width: 400px;
+        height: 400px;
+        margin-top: 100px;
     }
 
-    .center-ball > p{
+    .center-ball>p {
         padding-top: 105px;
-     }
+    }
 
-     .text-title p{
+    .text-title p {
         max-width: 444px;
     }
-   
+
 }
 
-@media screen and (max-width: 820px) and (min-height: 1180px){
-    .container.home{
+@media screen and (max-width: 820px) and (min-height: 1180px) {
+    .container.home {
         height: 1200px;
     }
 }
 
-@media screen and (max-width: 650px){
-    .flex-home{
+@media screen and (max-width: 650px) {
+    .flex-home {
         top: 120px;
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
 
-    .text-title{
+    .text-title {
         padding-left: 2%;
         padding-right: 2%;
     }
 
-    .text-title h3{
+    .text-title h3 {
         font-size: 1em;
     }
-    .text-title h1{
+
+    .text-title h1 {
         font-size: 5em;
     }
 
-    .text-title p{
+    .text-title p {
         font-size: 0.938em;
         max-width: 327px;
     }
 
-    .ball{
+    .ball {
         width: 250px;
         height: 250px;
     }
 
-    .center-ball > p{
+    .center-ball>p {
         font-size: 1.25em;
         padding-top: 65px;
     }
 
-    .container.home{
-       background-image: url('../../assets/Bitmap-mob-2.svg');
-       background-repeat: no-repeat;
-       background-position: 100% 100%;
+    .container.home {
+        background-image: url('../../assets/Bitmap-mob-2.png');
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
     }
 
 }
 
-@media screen and (min-width: 1920px) and (min-height: 1000px){
-    .container.home{
-       height: 100vh;
+@media screen and (min-width: 1920px) and (min-height: 1000px) {
+    .container.home {
+        height: 100vh;
     }
 }
 
+@media screen and (max-width: 1920px) and (min-height: 1200px) {
+    .container.home {
+        height: 100vh;
+    }
+}
 
+@media screen and (min-width: 1300px) and (max-width: 1920px) and (min-height: 990px) {
+    .container.home {
+        height: 100vh;
+    }
+}

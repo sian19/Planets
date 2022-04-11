@@ -1,4 +1,4 @@
-.container.tech{
+.container.tech {
     width: 100%;
     height: auto;
     background-image: url('../../assets//Technology.png');
@@ -8,13 +8,13 @@
     padding-bottom: 136px;
 }
 
-.all{
+.all {
     width: 100%;
     padding-top: 215px;
     padding-left: 170px;
 }
 
-.all > .title{
+.all>.title {
     width: 100%;
 }
 
@@ -24,23 +24,23 @@
     justify-content: space-between;
 }
 
-.n1t{
+.n1t {
     width: 59%;
     display: flex;
 }
 
-.n2t{
+.n2t {
     width: 37%;
     margin-top: 25px;
     display: block;
 }
 
-.selector{
+.selector {
     display: flex;
     flex-direction: column;
 }
 
-.selector .ball-cursor{
+.selector .ball-cursor {
     width: 80px;
     height: 80px;
     border-radius: 100%;
@@ -56,17 +56,17 @@
 }
 
 
-.selector .ball-cursor:not(:first-child){
+.selector .ball-cursor:not(:first-child) {
     margin-top: 32px;
     background-color: transparent;
 }
 
-.text-tech{
+.text-tech {
     padding-left: 70px;
     width: 90%;
 }
 
-.text-tech h3{
+.text-tech h3 {
     font-family: var(--Bar);
     font-style: normal;
     font-weight: normal;
@@ -76,7 +76,7 @@
     color: #D0D6F9;
 }
 
-.text-tech h2{
+.text-tech h2 {
     font-family: var(--Bell);
     font-style: normal;
     font-weight: normal;
@@ -86,8 +86,8 @@
     padding-top: 11px;
 }
 
-.text-tech > p{
-    font-family: var( --BarN);
+.text-tech>p {
+    font-family: var(--BarN);
     font-style: normal;
     font-weight: normal;
     font-size: 1.125em;
@@ -97,41 +97,41 @@
     max-width: 438px;
 }
 
-.n2t img:first-child{
+.n2t img:first-child {
     width: 100%;
     height: 100%;
 }
 
-.n2t img:last-child{
+.n2t img:last-child {
     display: none;
 }
 
 
-@media screen and (min-height: 1000px) and (min-width: 1920px){
-    .container.tech{
+@media screen and (min-height: 1000px) and (min-width: 1920px) {
+    .container.tech {
         height: 100vh;
     }
 }
 
 
-@media screen and (max-width: 1440px){
-    .n2t{
+@media screen and (max-width: 1440px) {
+    .n2t {
         width: 41%;
     }
 }
 
-@media screen and (max-width: 1300px){
-    .all .title{
+@media screen and (max-width: 1300px) {
+    .all .title {
         max-width: initial;
         max-width: 290px;
         padding-bottom: 60px;
     }
 
-   .all section{
-       flex-direction: column-reverse;
-   }
+    .all section {
+        flex-direction: column-reverse;
+    }
 
-   .n2t{
+    .n2t {
         width: 100%;
         max-width: 650px;
         height: 450px;
@@ -139,61 +139,61 @@
         margin-top: 25px;
     }
 
-    .all{
+    .all {
         padding-left: 0px;
     }
 
-    .all section .n1t{
+    .all section .n1t {
         padding-top: 56px;
         max-width: 650px;
     }
 }
 
-@media screen and (max-width:1090px){
-    .all section .n1t{
+@media screen and (max-width:1090px) {
+    .all section .n1t {
         flex-direction: column;
     }
 
-    .selector{
+    .selector {
         flex-direction: row;
         max-width: 305px;
         margin: auto;
     }
 
-    .selector .ball-cursor:not(:first-child){
+    .selector .ball-cursor:not(:first-child) {
         margin-top: 0px;
     }
 
-    .selector .ball-cursor:not(:last-child){
+    .selector .ball-cursor:not(:last-child) {
         margin-right: 28px;
     }
 
-    .text-tech{
+    .text-tech {
         text-align: center;
         padding-top: 44px;
     }
 
-    .text-tech p{
+    .text-tech p {
         margin: auto;
     }
 }
 
-@media screen and (max-width: 768px){
-    .all .title{
+@media screen and (max-width: 768px) {
+    .all .title {
         max-width: initial;
         padding-left: 40px;
         padding-bottom: 28px;
     }
 
-    .all{
+    .all {
         padding-top: 136px;
     }
 
-    .n1t{
+    .n1t {
         width: 100%;
     }
 
-    .n2t{
+    .n2t {
         max-width: initial;
         width: 100%;
         height: 100%;
@@ -201,105 +201,129 @@
         margin-top: 25px;
     }
 
-    .n2t img:first-child{
+    .n2t img:first-child {
         display: none;
     }
 
-    .n2t img:last-child{
+    .n2t img:last-child {
         display: block;
         width: 100%;
         height: 100%;
     }
-    
-    .selector{
-        max-width: 218px; 
+
+    .selector {
+        max-width: 218px;
         margin: auto;
     }
 
-    .selector .ball-cursor{
+    .selector .ball-cursor {
         width: 60px;
         height: 60px;
         padding-top: 16px;
         font-size: 1.5em;
     }
 
-    .selector .ball-cursor:not(:last-child){
+    .selector .ball-cursor:not(:last-child) {
         margin-right: 16px;
     }
 
-    .text-tech{
+    .text-tech {
         margin: auto;
         padding: 0;
         padding-top: 44px;
     }
 
-    .text-tech h3{
+    .text-tech h3 {
         max-width: 160px;
         margin: auto;
     }
 
-    .text-tech h2{
+    .text-tech h2 {
         font-size: 2.5em;
     }
 
-    .text-tech p{
+    .text-tech p {
         font-size: 1em;
         max-width: 430px;
         padding-top: 13px;
     }
 
-    .container.tech{
+    .container.tech {
         background-image: url('../../assets//tech-mobile.png');
         height: auto;
         padding-bottom: 44vh;
     }
 }
 
-@media screen and (max-width: 550px){
-    .all .title{
+@media screen and (max-width: 550px) {
+    .all .title {
         max-width: 176px;
         padding-left: 0px;
         padding-bottom: 16px;
     }
 
-    .all{
+    .all {
         padding-top: 88px;
     }
 
-    .selector{
-        max-width: 152px; 
+    .selector {
+        max-width: 152px;
     }
 
-    .selector .ball-cursor{
+    .selector .ball-cursor {
         width: 40px;
         height: 40px;
         padding-top: 10px;
         font-size: 1em;
     }
 
-    .text-tech{
+    .text-tech {
         padding-top: 28px;
     }
 
-    .text-tech h3{
+    .text-tech h3 {
         max-width: 148px;
         font-size: 0.875em;
     }
 
-    .text-tech h2{
+    .text-tech h2 {
         font-size: 1.5em;
         padding-top: 0;
     }
 
-    .text-tech p{
+    .text-tech p {
         font-size: 0.938em;
         max-width: 339px;
         padding-top: 0px;
     }
 
-    .container.tech{
+    .container.tech {
         height: 100%;
         padding-bottom: 60vh;
         background-image: url('../../assets/tech-mob-375px.png');
+    }
+}
+
+@media screen and (min-height: 1040px) {
+    .container.tech {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1820px) and (min-height: 920px) {
+    .container.tech {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-height: 920px) {
+    .container.tech {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-height: 1265px) {
+    .container.tech {
+        height: 100vh;
     }
 }
